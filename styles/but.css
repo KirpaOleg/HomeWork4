@@ -1,0 +1,20 @@
+button {
+  width: 120px;
+  height: 45px;
+  border: 1px white;
+  border-radius: 10px;
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+  margin: 50px;
+  background: linear-gradient(to top, gray, cyan);
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+} 
+button:active {
+  background: linear-gradient(to top, cyan, gray);
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: none;
+}
